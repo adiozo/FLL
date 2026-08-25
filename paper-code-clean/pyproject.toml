@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medical-imaging-mil"
+version = "0.1.0"
+description = "Research pipeline for image feature extraction and multiple-instance learning"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastai",
+  "h5py",
+  "matplotlib",
+  "numpy",
+  "opencv-python",
+  "pandas",
+  "pillow",
+  "scikit-learn",
+  "torch",
+  "torchvision",
+  "tqdm",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ensemble*", "extract*", "marugoto_adapter*", "pipeline*", "stats*", "util*"]

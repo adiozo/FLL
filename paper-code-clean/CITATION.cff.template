@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "REPLACE WITH PAPER OR SOFTWARE TITLE"
+type: software
+authors:
+  - family-names: "REPLACE"
+    given-names: "REPLACE"
+repository-code: "https://github.com/REPLACE/REPLACE"
+version: "0.1.0"
+date-released: "YYYY-MM-DD"
+preferred-citation:
+  type: article
+  title: "REPLACE WITH PAPER TITLE"
+  authors:
+    - family-names: "REPLACE"
+      given-names: "REPLACE"
+  journal: "REPLACE"
+  year: "YYYY"
+  doi: "REPLACE"
